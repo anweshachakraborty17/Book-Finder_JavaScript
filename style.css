@@ -1,0 +1,38 @@
+/* css stylesheet for BOOK FINDING APP
+  author: Anwesha Chakraborty
+  date: 31/05/2021
+*/
+
+body {
+  /* background-color: #76a9e0; */
+  background-image: url("../img/bg-book2.jpg");
+  background-color: #75a3a0; /*#017199;*/
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  margin: auto;
+  margin-top: 200px;
+}
+
+#header {
+  font-family: 'Righteous', sans-serif;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: 'Righteous', sans-serif;
+}
+
+.book-list {
+  margin-top: 50px;
+  visibility: hidden;
+}
